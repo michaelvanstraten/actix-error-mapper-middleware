@@ -93,4 +93,4 @@ mod middleware;
 mod service;
 
 use middleware::*;
-pub use service::*;
+pub use service::MapperService;

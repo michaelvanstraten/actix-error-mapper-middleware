@@ -2,6 +2,14 @@
 name = "actix-error-mapper-middleware"
 version = "0.1.0"
 edition = "2021"
+authors = ["Michael van Straten"]
+repository = "https://github.com/michaelvanstraten/actix-error-mapper-middleware"
+documentation = "https://docs.rs/actix-error-mapper-middleware/"
+keywords = ["web", "futures", "utility", "actix-web", "error-handling"]
+categories = ["Accessibility"]
+readme = "readme.md"
+description = "This simple crate allows you to remap actix-web errors to your own custom error type. You could for example return a html wrapped error. "
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
