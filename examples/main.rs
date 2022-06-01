@@ -1,7 +1,7 @@
 use actix_error_mapper_middleware::MapperService;
 use actix_jwt_auth_middleware::{AuthService, Authority};
 use actix_web::{web, App, Error as ActixError, HttpResponse, HttpServer, ResponseError};
-use rusty_html::{html, HTMLify};
+use rusty_html::html;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
